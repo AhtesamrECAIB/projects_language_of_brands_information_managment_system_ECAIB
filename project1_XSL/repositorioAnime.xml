@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE repositorioAnime SYSTEM "C:\Users\AHTESAM\JetBrainsFiles\webstorm\UF1\repositorioAnime.dtd">
+
+<repositorioAnime>
+    <animes>
+        <anime animeID="OP" protasRef="LM EM">
+            <nombreAnime>One Piece</nombreAnime>
+            <imagenAnime
+                    url="https://as01.epimg.net/meristation/imagenes/2021/02/08/noticias/1612786479_151283_1612786596_noticia_normal.jpg"/>
+            <generos>
+                <genero>Accion</genero>
+                <genero>Aventura</genero>
+                <genero>Fantasia</genero>
+                <genero>Comedia</genero>
+            </generos>
+            <ficha>
+                <estudio>Toei Animation</estudio>
+                <directores>
+                    <director>Kōnosuke Uda</director>
+                </directores>
+            </ficha>
+            <fechaestreno>
+                <dia>20</dia>
+                <mes>10</mes>
+                <any>1999</any>
+            </fechaestreno>
+            <temporadas estado="activo">20</temporadas>
+        </anime>
+        <anime animeID="PN" protaRef="EM">
+            <nombreAnime>The Promised Neverland</nombreAnime>
+            <imagenAnime url="https://i.ytimg.com/vi/Q7UPrSNa8FQ/maxresdefault.jpg"/>
+            <generos>
+                <genero>Ciencia ficcion</genero>
+                <genero>Drama</genero>
+                <genero>Terror</genero>
+            </generos>
+            <ficha>
+                <estudio>CloverWorks</estudio>
+                <directores>
+                    <director>Mamoru Kanbe</director>
+                </directores>
+            </ficha>
+            <fechaestreno>
+                <dia>10</dia>
+                <mes>01</mes>
+                <any>2019</any>
+            </fechaestreno>
+            <temporadas estado="finalizado">2</temporadas>
+        </anime>
+        <anime animeID="PM" protasRef="KS ST">
+            <nombreAnime>Mob Psycho 100</nombreAnime>
+            <imagenAnime url="https://pics.filmaffinity.com/Mob_Psycho_100_Serie_de_TV-976847833-large.jpg"/>
+            <generos>
+                <genero>Accion</genero>
+                <genero>Ficcion sobrenatural</genero>
+                <genero>Comedia</genero>
+            </generos>
+            <ficha>
+                <estudio>Estudio Bones</estudio>
+                <directores>
+                    <director>Yuzuru Tachikawa</director>
+                    <director>Shuhei Morita</director>
+                </directores>
+            </ficha>
+            <fechaestreno>
+                <dia>12</dia>
+                <mes>07</mes>
+                <any>2016</any>
+            </fechaestreno>
+            <temporadas estado="activo">3</temporadas>
+        </anime>
+        <anime animeID="OPM" protaRef="ST">
+            <nombreAnime>One Punch Man</nombreAnime>
+            <imagenAnime url="https://es.web.img3.acsta.net/pictures/17/02/27/17/41/046707.jpg"/>
+            <generos>
+                <genero>Accion</genero>
+                <genero>Comedia de superheroes</genero>
+            </generos>
+            <ficha>
+                <estudio>Madhouse</estudio>
+                <directores>
+                    <director>Shingo Natsume</director>
+                </directores>
+            </ficha>
+            <fechaestreno>
+                <dia>05</dia>
+                <mes>10</mes>
+                <any>2015</any>
+            </fechaestreno>
+            <temporadas estado="finalizado">2</temporadas>
+        </anime>
+        <anime animeID="TG" protaRef="KK">
+            <nombreAnime>Ken Kaneki</nombreAnime>
+            <imagenAnime url="https://pics.filmaffinity.com/Tokyo_Ghoul_Serie_de_TV-856840737-large.jpg"/>
+            <generos>
+                <genero>Fantasia oscura</genero>
+                <genero>Suspense</genero>
+            </generos>
+            <ficha>
+                <estudio>Pierrot</estudio>
+                <directores>
+                    <director>Shuhei Morita</director>
+                </directores>
+            </ficha>
+            <fechaestreno>
+                <dia>04</dia>
+                <mes>07</mes>
+                <any>2014</any>
+            </fechaestreno>
+            <temporadas estado="finalizado">3</temporadas>
+        </anime>
+    </animes>
+    <personajes>
+        <personaje protaID="LM" animeRef="OP">
+            <nombreProta>Monkey D. Luffy</nombreProta>
+            <imagenProta url="https://assets.puzzlefactory.com/puzzle/386/460/original.jpg"/>
+            <datos>
+                <edad>19 años</edad>
+                <altura>1.74 cm</altura>
+                <sexo>hombre</sexo>
+            </datos>
+            <caracteristicas>
+                <cuerpo IQ="bajo">humano</cuerpo>
+                <poderes>
+                    <poder>Fruta Gomu Gomu</poder>
+                </poderes>
+            </caracteristicas>
+            <merchandising>
+                <producto>figura</producto>
+                <precio>45€</precio>
+                <producto>camiseta</producto>
+                <precio>10€</precio>
+            </merchandising>
+        </personaje>
+        <personaje protaID="EM" animeRef="PN">
+            <nombreProta>Emma</nombreProta>
+            <imagenProta
+                    url="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/01/Emma-The-Promised-Neverland.jpg"/>
+            <datos>
+                <edad>13 años</edad>
+                <altura>1.58 cm</altura>
+            </datos>
+            <caracteristicas>
+                <cuerpo IQ="alto">humano</cuerpo>
+            </caracteristicas>
+            <merchandising>
+                <producto>poster</producto>
+                <precio>4€</precio>
+            </merchandising>
+        </personaje>
+        <personaje protaID="KS" animesRef="PM OPM">
+            <nombreProta>Kageyama Shigeo</nombreProta>
+            <imagenProta url="https://areajugones.sport.es/wp-content/uploads/2022/05/mob-psycho-100-3-1080x609.jpg"/>
+            <datos>
+                <edad>14 años</edad>
+                <altura>1.58 cm</altura>
+                <sexo>hombre</sexo>
+            </datos>
+            <caracteristicas>
+                <cuerpo IQ="normal">humano</cuerpo>
+                <poderes>
+                    <poder>Psiquico</poder>
+                </poderes>
+            </caracteristicas>
+            <merchandising>
+                <producto>camitas</producto>
+                <precio>5€</precio>
+                <producto>figuras</producto>
+                <precio>35€</precio>
+            </merchandising>
+        </personaje>
+        <personaje protaID="ST" animeRef="OPM">
+            <nombreProta>Saitama</nombreProta>
+            <imagenProta url="https://i.pinimg.com/736x/14/73/2f/14732fb1cab75d4fc5e7683a3e8cb37e.jpg"/>
+            <datos>
+                <edad>25 años</edad>
+                <altura>1.75 cm</altura>
+                <sexo>hombre</sexo>
+            </datos>
+            <caracteristicas>
+                <cuerpo IQ="bajo">humano</cuerpo>
+                <poderes>
+                    <poder>Un golpe</poder>
+                </poderes>
+            </caracteristicas>
+            <merchandising>
+                <producto>figuras</producto>
+                <precio>55€</precio>
+                <producto>camisetas</producto>
+                <precio>10€</precio>
+                <producto>sudaderas</producto>
+                <precio>25€</precio>
+            </merchandising>
+        </personaje>
+        <personaje protaID="KK" animeRef="TG">
+            <nombreProta>Kaneku Kun</nombreProta>
+            <imagenProta url="https://m.media-amazon.com/images/I/51rUaJyobQL._AC_.jpg"/>
+            <datos>
+                <edad>19 años</edad>
+                <altura>1.69 cm</altura>
+                <sexo>hombre</sexo>
+            </datos>
+            <caracteristicas>
+                <cuerpo IQ="normal">Vampiro</cuerpo>
+                <poderes>
+                    <poder>Chupa sangre</poder>
+                </poderes>
+            </caracteristicas>
+            <merchandising>
+                <producto>Mascara</producto>
+                <precio>32€</precio>
+            </merchandising>
+        </personaje>
+    </personajes>
+</repositorioAnime>
