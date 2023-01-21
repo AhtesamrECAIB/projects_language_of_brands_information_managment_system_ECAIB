@@ -4,7 +4,7 @@
 
 <repositorioAnime>
     <animes>
-        <anime animeID="OP" protasRef="LM EM">
+        <anime animeID="OP" protaRef="LM EM">
             <nombreAnime>One Piece</nombreAnime>
             <imagenAnime
                     url="https://as01.epimg.net/meristation/imagenes/2021/02/08/noticias/1612786479_151283_1612786596_noticia_normal.jpg"/>
@@ -48,7 +48,7 @@
             </fechaestreno>
             <temporadas estado="finalizado">2</temporadas>
         </anime>
-        <anime animeID="PM" protasRef="KS ST">
+        <anime animeID="PM" protaRef="KS ST">
             <nombreAnime>Mob Psycho 100</nombreAnime>
             <imagenAnime url="https://pics.filmaffinity.com/Mob_Psycho_100_Serie_de_TV-976847833-large.jpg"/>
             <generos>
@@ -149,7 +149,7 @@
                 <precio>4€</precio>
             </merchandising>
         </personaje>
-        <personaje protaID="KS" animesRef="PM OPM">
+        <personaje protaID="KS" animeRef="PM OPM">
             <nombreProta>Kageyama Shigeo</nombreProta>
             <imagenProta url="https://areajugones.sport.es/wp-content/uploads/2022/05/mob-psycho-100-3-1080x609.jpg"/>
             <datos>
@@ -194,7 +194,7 @@
             </merchandising>
         </personaje>
         <personaje protaID="KK" animeRef="TG">
-            <nombreProta>Kaneku Kun</nombreProta>
+            <nombreProta>Kaneki Kun</nombreProta>
             <imagenProta url="https://m.media-amazon.com/images/I/51rUaJyobQL._AC_.jpg"/>
             <datos>
                 <edad>19 años</edad>

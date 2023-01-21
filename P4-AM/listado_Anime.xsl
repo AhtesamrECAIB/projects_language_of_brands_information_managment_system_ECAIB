@@ -2,16 +2,22 @@
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:template match="/">
+    <xsl:template match="repositorioAnime">
         <html>
             <head>
-                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic"/>
+                <title>Listado Animes</title>
+                <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+                      rel="stylesheet"
+                      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+                      crossorigin="anonymous"/>
+                <link rel="stylesheet" type="text/css" href="style.css"/>
+
             </head>
             <body>
-                <h2 align="center">Repositorio de Anime</h2>
-                <table border="2" align="center">
-                    <thead>
-                        <tr class='warning'>
+                <h2 align="center">Listado Animes</h2>
+                <table class="table table-success table-bordered" border="2" align="center">
+                    <thead class="table-dark">
+                        <tr>
                             <th>Nombre</th>
                             <th>Imagen</th>
                             <th>Generos</th>
@@ -19,14 +25,14 @@
                             <th>Fecha de estreno</th>
                             <th>Temporadas</th>
                         </tr>
-
                     </thead>
-                    <tbody>
-                        <xsl:for-each select="repositorioAnime/animes/anime">
-                            <xsl:sort select="nombreAnime"/>
+                    <tbody style="vertical-align: middle">
+                        <xsl:for-each select="animes/anime">
                             <tr>
                                 <td>
-                                    <xsl:value-of select="nombreAnime"/>
+                                    <a href="salida_personajes.html#{@protaRef}">
+                                        <xsl:value-of select="nombreAnime"/>
+                                    </a>
                                 </td>
                                 <td>
                                     <img width="100px" src="{imagenAnime/@url}"/>
