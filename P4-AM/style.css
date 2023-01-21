@@ -1,0 +1,26 @@
+body {
+    font-family: Rockwell;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: lightyellow;
+    vertical-align: middle;
+}
+
+thead {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    text-align: center;
+    margin: 0;
+    font-size: 17px;
+}
+img {
+    width: 150px;
+}
