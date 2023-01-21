@@ -34,7 +34,7 @@
                                     </a>
                                 </td>
                                 <td>
-                                    <img width="100px" src="{imagenProta/@url}"/>
+                                    <img src="{imagenProta/@url}"/>
                                 </td>
                                 <td>
                                     <xsl:value-of select="datos/edad"/>
