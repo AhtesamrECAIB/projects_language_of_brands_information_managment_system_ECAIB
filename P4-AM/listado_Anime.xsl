@@ -35,7 +35,7 @@
                                     </a>
                                 </td>
                                 <td>
-                                    <img width="100px" src="{imagenAnime/@url}"/>
+                                    <img src="{imagenAnime/@url}"/>
                                 </td>
                                 <td>
                                     <xsl:apply-templates select="generos"/>
